@@ -1,0 +1,15 @@
+
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>
+	tags = [], tagstohtml = [];
+	$(function(){
+		domtext = $('#ALLDOMCONTENT').text();
+		$('#ALLDOMCONTENT').text('');
+		console.clear();
+		tags = domtext.match(/{(.*)}/gi);
+		for (var i = tags.length - 1; i >= 0; i--) {
+			tagstohtml.push(tags[i] + '<br>')
+		}
+		document.write(tagstohtm);
+	});
+</script>

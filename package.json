@@ -1,0 +1,11 @@
+{
+	"name": "Tumblr Theme Dev",
+	"main": "index.html",
+	"version": "0.0.1.20160213",
+	"window": {
+		"title": "Tumblr Theme Dev",
+		"icon": "images/logo.png",
+		"toolbar": false,
+		"frame": 1
+	}
+}

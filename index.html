@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Tumblr Theme Dev</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script>
+		var gui = require('nw.gui');
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<img src="images/logo.png">
+			<div class="windowControlls">
+				<a href="#" onClick="preventDefault();"></a>
+				<a href="#" onClick="preventDefault();"></a>
+				<a href="#" onClick="preventDefault();"></a>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<iframe src="res/tags.txt" nwfaketop></iframe>
+	</main>
+	<footer></footer>
+	<script>
+		var arr = $('iframe');
+		arr = arr.split('\n');
+		/* var arr = $;
+		var sorted_arr = arr.sort();
+		var results = [];
+		for (var i = 0; i < arr.length - 1; i++) {
+			if (sorted_arr[i + 1] == sorted_arr[i]) {
+				results.push(sorted_arr[i]);
+			}
+		}*/
+
+		console.log(arr);
+		// var contentframe = gui.Window.open('http://google.com');
+	</script>
+	<script>
+	var path = './';
+	var fs = require('fs');
+	fs.watch(path, function() {
+		if (location)
+		location.reload();
+	});
+	</script>
+</body>
+</html>
