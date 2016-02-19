@@ -9,3 +9,8 @@ function contextmenu(opts, e){
 	for (var i = 0; i <= opts.length - 1; i++){ menu.append(new gui.MenuItem(opts[i])); }
 	menu.popup(e.pageX, e.pageY + navHeight);
 }
+
+function externalLink(e, el){
+	e.preventDefault();
+	gui.Shell.openExternal($(el).attr('href'));
+}
