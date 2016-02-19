@@ -4,9 +4,10 @@
 // ------ Vars ------
 // Colors
 @pink: #f27;
+@lightPink: #f6b;
 @white: #ffe;
 @darkBlue: #333036;
-@lightBlue: #39363c;
+@lightBlue: #3c393f;
 
 // Sizes
 @navHeight: 2.5rem;
@@ -29,7 +30,7 @@ ul, li{
 
 html, body{
 	color: @white;
-	font-family: 'Roboto Slab';
+	// font-family: 'Roboto Slab';
 	// font-family: 'Roboto';
 	// font-family: 'Open Sans';
 	font-family: 'Lato';
@@ -57,8 +58,7 @@ input[type="button"], button, .button{ cursor: pointer; }
 // ------ Styles ------
 
 body{
-	// background: #232026;
-	box-shadow: 0 0 10px rgba(0,0,0,1);
+	background: @darkBlue;
 	header{
 		nav{
 			-webkit-app-region: drag;
@@ -117,31 +117,56 @@ body{
 	}
 	main{
 		background: @lightBlue;
+		color: @darkBlue;
 		height: 100vh;
-		padding: @navHeight 0 0 0;
+		margin: 0; padding: @navHeight 0 0 0;
 		box-sizing: border-box;
 		> #dragdrop{
+			color: @darkBlue;
+			font-family: 'Roboto Slab';
+			font-size: 2.5rem;
+			font-weight: 400;
 			height: 100%;
+			// margin: 0 1em;
 			opacity: 1;
-			transition: height .3s, opacity .3s;
+			line-height: 90vh;
+			box-sizing: border-box;
 			transition-timing-function: cubic-bezier(.8,0,.2,1);
+			transition: height .3s, opacity .3s, color .2s ease-in-out;
 			&.hidden{
 				height: 0%;
 				opacity: 0;
+			}
+			&.hover{
+				color: fade(@lightPink, 30%);
+			}
+			> div{
+				display: inline-block;
+				line-height: 1.3em;
+				width: 100%;
+				vertical-align: text-top;
 			}
 		}
 		> #mainframe{
 			border: none;
 			background: #fff;
-			height: 0%; width: 100%;
+			// height: 0%; width: 100%;
+			height: 100%; width: 100%;
+			margin: 0 auto;
+			display: block;
 			opacity: 0;
 			box-sizing: border-box;
-			transition: height .3s, opacity .3s;
 			transition-timing-function: cubic-bezier(.8,0,.2,1);
+			transition: height .3s, opacity .3s, width .2s;
 			&.visible{
-				height: 100%;
+				// height: 100%;
 				opacity: 1;
 			}
+			&.respons-200{ width: 200px; }
+			&.respons-400{ width: 400px; }
+			&.respons-600{ width: 600px; }
+			&.respons-800{ width: 800px; }
+			&.respons-1024{ width: 1024px; }
 		}
 	}
 	footer{

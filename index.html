@@ -11,6 +11,7 @@
 	<script>var gui = require('nw.gui'); var win = gui.Window.get();</script>
 	<script src="js/mainframe.js"></script>
 	<script src="js/tray.js"></script>
+	<script src="js/dragdrop.js"></script>
 	<script src="js/main.js"></script>
 	<script>
 		$(function(){
@@ -40,10 +41,12 @@
 			<img src="images/logo.png">
 			<div>
 				<ul class="menu">
-					<li><a onclick="$('#mainframe').toggleClass('visible'); $('#dragdrop').toggleClass('hidden');" href="#">Toggle Mainframe Visibility</a></li>
+					<li><a onclick="$('#mainframe').toggleClass('visible'); $('#dragdrop').toggleClass('hidden');" href="#">Mainframe</a></li>
+					<li><a onclick="$('#mainframe').toggleClass('respons-400');" href="#">Responsive</a></li>
 					<li><a href="">File</a></li>
 					<li><a href="">View</a></li>
 					<li><a href="">Help</a></li>
+					<li><a class="" href=""></a></li>
 				</ul>
 				<div class="windowControlls">
 					<a href="#" onClick="event.preventDefault(); win.showDevTools();"></a>
@@ -54,14 +57,16 @@
 		</nav>
 	</header>
 	<main>
-		<div id="dragdrop">
-			Drag & drop file <br>
-			or <br>
-			Click to open <br>
-			<span class="fa fa-plus-square-o"></span>
-			<span class="fa fa-chevron-up"></span>
-			<span class="fa fa-file-code-o"></span>
-			<span class="fa fa-code"></span>
+		<div id="dragdrop" class="">
+			<div>
+				<!-- <span class="fa fa-chevron-up" style="float: left; font-size: 6rem; margin: 0 4vw;"></span> -->
+				<span class="fa fa-file-code-o" style="float: left; font-size: 6rem; margin: 0 4vw;"></span>
+				<!-- <span class="fa fa-plus-square-o" style="float: left; font-size: 6rem; margin: 0 4vw;"></span> -->
+				<div>
+					Drag & drop /<br>
+					Click to open
+				</div>
+			</div>
 		</div>
 		<iframe id="mainframe" src=""></iframe>
 	</main>

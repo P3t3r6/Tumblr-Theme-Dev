@@ -10,7 +10,6 @@ function define_mainframe(){
 		body: $('body', mainframe.document)
 	}
 	$(mainframe.window).contextmenu(function(e){
-		console.log(e);
 		contextmenu([{label: 'New'},{type: 'separator'},{label: 'Cut'},{label: 'Copy'},{label: 'Paste'},{type: 'separator'},{label: 'Properties'}], e);
 	});
 }
