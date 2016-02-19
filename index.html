@@ -5,48 +5,74 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Tumblr Theme Dev</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script>var gui = require('nw.gui'); var win = gui.Window.get();</script>
+	<script src="js/mainframe.js"></script>
+	<script src="js/tray.js"></script>
+	<script src="js/main.js"></script>
 	<script>
-		var gui = require('nw.gui');
+		$(function(){
+			setTimeout(function(){get_mainframe()},1000);
+		});
+		// var tumblr = require('tumblr.js');
+		// var client = new tumblr.Client({
+		// 	consumer_key : 'XgWqAsNUVmK50FaxaX4UnCMw3psHFhNSGizGvvptQe976CIjdF',
+		// 	consumer_secret : 'gPS02dTRqdk8uzBnT65yfmcHRP527mJJ65BnJqnXhRD1DdETUW'
+		// 	/*, token : 'bKIM91IykgaaW1r62x0FcN74HyMY3wfKqyJypdFtNJ8F4B7Wmc',
+		// 	token_secret : 'CBT7NYnBPVz4RRgw23cIjfDpPKwFpoX7RMTJvrzm0NtkbhfssE'*/
+		// });
+		// var tumblr = {
+		// 	tags: {
+		// 		get: function(){
+		// 			var arr = $('body', contframe).text();
+		// 			arr = arr.split('\n');
+		// 			return arr;
+		// 		}
+		// 	}
+		// }
 	</script>
 </head>
 <body>
 	<header>
 		<nav>
 			<img src="images/logo.png">
-			<div class="windowControlls">
-				<a href="#" onClick="preventDefault();"></a>
-				<a href="#" onClick="preventDefault();"></a>
-				<a href="#" onClick="preventDefault();"></a>
+			<div>
+				<ul class="menu">
+					<li><a onclick="$('#mainframe').toggleClass('visible'); $('#dragdrop').toggleClass('hidden');" href="#">Toggle Mainframe Visibility</a></li>
+					<li><a href="">File</a></li>
+					<li><a href="">View</a></li>
+					<li><a href="">Help</a></li>
+				</ul>
+				<div class="windowControlls">
+					<a href="#" onClick="event.preventDefault(); win.showDevTools();"></a>
+					<a href="#" onClick="event.preventDefault(); win.minimize();"></a>
+					<a href="#" onClick="event.preventDefault(); win.close();"></a>
+				</div>
 			</div>
 		</nav>
 	</header>
 	<main>
-		<iframe src="res/tags.txt" nwfaketop></iframe>
+		<div id="dragdrop">
+			Drag & drop file <br>
+			or <br>
+			Click to open <br>
+			<span class="fa fa-plus-square-o"></span>
+			<span class="fa fa-chevron-up"></span>
+			<span class="fa fa-file-code-o"></span>
+			<span class="fa fa-code"></span>
+		</div>
+		<iframe id="mainframe" src=""></iframe>
 	</main>
 	<footer></footer>
 	<script>
-		var arr = $('iframe');
-		arr = arr.split('\n');
-		/* var arr = $;
-		var sorted_arr = arr.sort();
-		var results = [];
-		for (var i = 0; i < arr.length - 1; i++) {
-			if (sorted_arr[i + 1] == sorted_arr[i]) {
-				results.push(sorted_arr[i]);
-			}
-		}*/
-
-		console.log(arr);
-		// var contentframe = gui.Window.open('http://google.com');
-	</script>
-	<script>
-	var path = './';
-	var fs = require('fs');
-	fs.watch(path, function() {
-		if (location)
-		location.reload();
-	});
+		var path = './';
+		var fs = require('fs');
+		fs.watch(path, function() {
+			if (location)
+			location.reload();
+		});
 	</script>
 </body>
 </html>

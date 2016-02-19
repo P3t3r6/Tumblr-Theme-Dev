@@ -1,64 +1,147 @@
+// ------ Imports ------
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700|Roboto:400,300,700|Open+Sans:300,400,600,700|Lato:400,300,700);
+
 // ------ Vars ------
+// Colors
+@pink: #f27;
+@white: #ffe;
+@darkBlue: #333036;
+@lightBlue: #39363c;
 
-
+// Sizes
+@navHeight: 2.5rem;
 
 // ------ Reset ------
+*{
+	user-select: none;
+	outline: none;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+	color: inherit;
+	text-decoration: none;
+}
+
+ul, li{
+	margin: 0; padding: 0;
+	list-style: none;
+}
 
 html, body{
+	color: @white;
+	font-family: 'Roboto Slab';
+	// font-family: 'Roboto';
+	// font-family: 'Open Sans';
+	font-family: 'Lato';
 	font-size: 12pt;
+	font-weight: 100;
 	margin: 0; padding: 0;
 	min-height: 100vh;
 	overflow-y: hidden;
 }
 
+input, button, textarea, .button{
+	border: none;
+	// border-bottom: 2px solid @pink;
+	background: none;
+	color: inherit;
+	font-family: inherit;
+	font-size: 1.4em;
+	font-weight: inherit;
+	line-height: 1em;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+input[type="button"], button, .button{ cursor: pointer; }
+
 // ------ Styles ------
 
 body{
-	background: #232026;
+	// background: #232026;
+	box-shadow: 0 0 10px rgba(0,0,0,1);
 	header{
 		nav{
-			font-size: 3rem;
-			background: #333036;
-			height: 3rem; width: 100%;
+			-webkit-app-region: drag;
+			font-size: @navHeight;
+			background: @darkBlue;
+			height: @navHeight; width: 100%;
 			position: fixed;
 			top: 0; left: 0;
 			img{
+				-webkit-app-region: no-drag;
 				height: 100%;
-				padding: .1em;
+				padding: .2em;
 				position: absolute;
-				top: 0; left: .2em;
+				top: 0; left: .1em;
 				box-sizing: border-box;
 			}
-			.windowControlls{
+			> div{
+				font-size: @navHeight / 2.8;
+				text-align: right;
 				position: absolute;
-				right: .2em; top: 0;
+				right: .5em; top: 0;
 				height: 100%;
-				display: flex;
-				flex-flow: row nowrap;
-				box-sizing: border-box;
-				align-items: center;
-				> a{
-					background: #636066;
-					height: .3em; width: .3em;
-					vertical-align: middle;
-					margin: 0 .1em; padding: 0;
-					border-radius: 100px;
-					&:nth-child(1){ background: #446; }
-					&:nth-child(2){ background: #446; }
-					&:nth-child(3){ background: #f27; }
+				-webkit-app-region: no-drag;
+				.menu{
+					display: inline-block;
+					li{
+						display: inline-block;
+						margin: 0 .2em;
+						a{
+							padding: 0 .2em;
+							display: inline-block;
+						}
+					}
+				}
+				.windowControlls{
+					height: 100%;
+					display: inline-flex;
+					flex-flow: row nowrap;
+					box-sizing: border-box;
+					align-items: center;
+					margin: 0 0 0 1em;
+					> a{
+						background: #636066;
+						height: 1em; width: 1em;
+						vertical-align: middle;
+						margin: 0 .2em; padding: 0;
+						border-radius: 100px;
+						-webkit-app-region: no-drag;
+						&:nth-child(1){ background: #446; }
+						&:nth-child(2){ background: #446; }
+						&:nth-child(3){ background: @pink; }
+					}
 				}
 			}
 		}
 	}
 	main{
+		background: @lightBlue;
 		height: 100vh;
-		padding: 3rem 0 0 0;
+		padding: @navHeight 0 0 0;
 		box-sizing: border-box;
-		> iframe{
+		> #dragdrop{
+			height: 100%;
+			opacity: 1;
+			transition: height .3s, opacity .3s;
+			transition-timing-function: cubic-bezier(.8,0,.2,1);
+			&.hidden{
+				height: 0%;
+				opacity: 0;
+			}
+		}
+		> #mainframe{
 			border: none;
 			background: #fff;
-			height: 100%; width: 100%;
+			height: 0%; width: 100%;
+			opacity: 0;
 			box-sizing: border-box;
+			transition: height .3s, opacity .3s;
+			transition-timing-function: cubic-bezier(.8,0,.2,1);
+			&.visible{
+				height: 100%;
+				opacity: 1;
+			}
 		}
 	}
 	footer{

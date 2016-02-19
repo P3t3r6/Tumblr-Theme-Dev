@@ -6,6 +6,6 @@
 		"title": "Tumblr Theme Dev",
 		"icon": "images/logo.png",
 		"toolbar": false,
-		"frame": 1
+		"frame": false
 	}
 }

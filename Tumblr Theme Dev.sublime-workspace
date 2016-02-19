@@ -1,0 +1,1861 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"main",
+				"mainframe	(index.html)"
+			],
+			[
+				"con",
+				"content	Window"
+			],
+			[
+				"contet",
+				"contentWindow	(mainframe.js)"
+			],
+			[
+				"nav",
+				"navHeight"
+			],
+			[
+				"he",
+				"header	(index.html)"
+			],
+			[
+				"consol",
+				"console.log()"
+			],
+			[
+				"conte",
+				"contextmenu	Event"
+			],
+			[
+				"content",
+				"contentWindow"
+			],
+			[
+				"conntent",
+				"contentType	Document"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"tags",
+				"tagstohtml"
+			],
+			[
+				"sor",
+				"sorted_arr"
+			],
+			[
+				"clea",
+				"clearInterval(intervalID)	Window"
+			],
+			[
+				"read",
+				"readyState	Document"
+			],
+			[
+				"iframe",
+				"iframe"
+			],
+			[
+				"cona",
+				"contacts"
+			],
+			[
+				"css",
+				"css/"
+			],
+			[
+				"Inn",
+				"innerWidth	Window"
+			],
+			[
+				"inn",
+				"innerHeight	.innerHeight()"
+			],
+			[
+				"can",
+				"cancelButtonText	(app.js)"
+			],
+			[
+				"show",
+				"showCancelButton	(app.js)"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"esta",
+				"estamosAquiTitle.png	w:850 h:194"
+			],
+			[
+				"ti",
+				"faleConnoscoTitle.png	w:551 h:171"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"cl",
+				"big_cloud.png	w:608 h:348"
+			],
+			[
+				"tr",
+				"tree.png	w:792 h:961"
+			],
+			[
+				"conta",
+				"contactos.png	w:320 h:185"
+			],
+			[
+				"os",
+				"osPequenos.png	w:320 h:185"
+			],
+			[
+				"f",
+				"font-awesome/"
+			],
+			[
+				"menu",
+				"menuTrigger"
+			],
+			[
+				"small",
+				"smallStars	(index.html)"
+			],
+			[
+				"sun",
+				"sunrays.png	w:1369 h:1369"
+			],
+			[
+				"tex",
+				"text	(style.less)"
+			],
+			[
+				"mi",
+				"featherlight.min.js"
+			],
+			[
+				"s",
+				"sun.png	w:822 h:818"
+			],
+			[
+				"gale",
+				"galleryPhotos"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"trigger",
+				"triggerElement"
+			],
+			[
+				"scro",
+				"scrollPercent"
+			],
+			[
+				"op",
+				"opacity	(style.less)"
+			],
+			[
+				"auto",
+				"autohidemode	(jquery.nicescroll.min.js)"
+			],
+			[
+				"flow",
+				"flowers"
+			],
+			[
+				"jinv",
+				"jinvscElems"
+			],
+			[
+				"sk",
+				"skyToNight"
+			],
+			[
+				"scroll",
+				"scrollmagic"
+			],
+			[
+				"prod",
+				"productsSlider"
+			],
+			[
+				"tri",
+				"trigger	.trigger()"
+			],
+			[
+				"getElemen",
+				"getElementsByTagName(${0:name})	Element"
+			],
+			[
+				"getEle",
+				"getElementsByClassName(${0:names})	Element"
+			],
+			[
+				"do",
+				"document	(index.php)"
+			],
+			[
+				"images",
+				"images/"
+			],
+			[
+				"ng-s",
+				"ng-src	AngularJS"
+			],
+			[
+				"faq",
+				"faqs.json"
+			],
+			[
+				"Sto",
+				"StoreController	(app.js)"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"products",
+				"products.js"
+			],
+			[
+				"contr",
+				"controller	AngularJS"
+			],
+			[
+				"tit",
+				"title	Attr"
+			],
+			[
+				"ver",
+				"vertical	(style.css)"
+			],
+			[
+				"scrollO",
+				"scrollOutside	(jquery.fancybox.js)"
+			],
+			[
+				"ff",
+				"ffa61a	(style.css)"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"butt",
+				"button"
+			],
+			[
+				"pagerSe",
+				"pagerSelector	(jquery.bxslider.min.js)"
+			],
+			[
+				"lev",
+				"lev1"
+			],
+			[
+				"current",
+				"currentClass	(jquery.singlePageNav.min.js)"
+			],
+			[
+				"ele",
+				"elemHeight"
+			],
+			[
+				"oute",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"off",
+				"offset"
+			],
+			[
+				"curr",
+				"currentClass"
+			],
+			[
+				"header",
+				"header"
+			],
+			[
+				"para",
+				"parallax"
+			],
+			[
+				"ima",
+				"images/"
+			],
+			[
+				"HelveticaNeue",
+				"HelveticaNeue/"
+			],
+			[
+				"HelveticaNeueLTStd-",
+				"HelveticaNeueLTStd-ThCn.otf"
+			],
+			[
+				"HelveticaNeueLTStd",
+				"HelveticaNeueLTStd-LtCn.otf"
+			],
+			[
+				"HelveticaNeueLTSt",
+				"HelveticaNeueLTStd-BlkCn.otf"
+			],
+			[
+				"hel",
+				"Helvetica Neue Cn/"
+			],
+			[
+				"f6",
+				"fe1600	(style.css)"
+			],
+			[
+				"fon",
+				"fonts/"
+			],
+			[
+				"track",
+				"trackDur"
+			],
+			[
+				"audio",
+				"audioLoader	(index.html)"
+			],
+			[
+				"curren",
+				"currentColor	(style.css)"
+			],
+			[
+				"now",
+				"nowrap"
+			],
+			[
+				"len",
+				"length	String"
+			],
+			[
+				"spl",
+				"splice(${0:index}, howMany)	Array"
+			],
+			[
+				"fun",
+				"functions"
+			],
+			[
+				"theme",
+				"themeroot"
+			],
+			[
+				"outp",
+				"output"
+			],
+			[
+				"gr",
+				"grid"
+			],
+			[
+				"car",
+				"card"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"cle",
+				"clearShapes"
+			],
+			[
+				"bo",
+				"body"
+			],
+			[
+				"ph",
+				"physics"
+			],
+			[
+				"home",
+				"homeFieldMap"
+			],
+			[
+				"homeF",
+				"homeFieldBg"
+			],
+			[
+				"crop",
+				"cropField2"
+			],
+			[
+				"shop",
+				"shop3"
+			],
+			[
+				"add",
+				"add	.add()"
+			],
+			[
+				"seedShop",
+				"seedShopSells"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"unde",
+				"undefined"
+			],
+			[
+				"define",
+				"defineProperty(${0:Object}, prop, descriptor)	Object"
+			],
+			[
+				"els",
+				"else if()"
+			],
+			[
+				"defin",
+				"defineProperty(${0:Object}, prop, descriptor)	Object"
+			],
+			[
+				"lenght",
+				"length	Array"
+			],
+			[
+				"time",
+				"toTimeString()	Date"
+			],
+			[
+				"ad",
+				"addClass	.addClass()"
+			],
+			[
+				"na",
+				"name	Attr"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"vs",
+				"visibility	Style CSS"
+			],
+			[
+				"foot",
+				"footer_widget_area"
+			],
+			[
+				"aft",
+				"after_title"
+			],
+			[
+				"bef",
+				"before_title"
+			],
+			[
+				"key",
+				"keydown	.keydown()"
+			],
+			[
+				"toggl",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"in",
+				"input	input - radio"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"visibi",
+				"visibility	Style CSS"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1905,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "less/style.less",
+			"settings":
+			{
+				"buffer_size": 2527,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/mainframe.js",
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"qcom",
+				"Git: Quick Commit"
+			],
+			[
+				"gita",
+				"Git: Add All"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"np",
+				"npm: Install Package"
+			],
+			[
+				"packagesync",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"tab",
+				"tabr: Create Tab Order"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"ta",
+				"tabr: Create Tab Order"
+			],
+			[
+				"npm in",
+				"npm: Install Package"
+			],
+			[
+				"npm ",
+				"npm: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project: Edit Project"
+			],
+			[
+				"settin",
+				"Preferences: Settings - User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tabr",
+				"tabr: Create Tab Order"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"inspa",
+				"Package Control: Install Package"
+			],
+			[
+				"css3",
+				"CSS3: Validate"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"spell che",
+				"Google Spell Check"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				"online",
+				"PackageSync: Sync Online - Define Online Sync Folder"
+			],
+			[
+				"back",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"packagesync ",
+				"PackageSync: Backup/Restore - Backup Packages To Zip (Recommended)"
+			],
+			[
+				"floo",
+				"Floobits - Complete Sign Up"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"package control",
+				"Package Control: Enable Package"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"mini",
+				"Minify Javascript"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sftp",
+				"SFTP: Show Panel"
+			],
+			[
+				"pacl",
+				"Package Control: List Packages"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"fz",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"revela",
+				"Side Bar: Reveal File"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"prefe",
+				"Preferences: Settings - User"
+			],
+			[
+				"sideba",
+				"Side Bar: Enable Syncing"
+			],
+			[
+				"ftp",
+				"FTPSync: Check current file"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"1s",
+				"Go to 1self Dashboard"
+			],
+			[
+				"inpa",
+				"Package Control: Install Package"
+			],
+			[
+				"sche",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"color Sch",
+				"Color Scheme Editor: Goto next matching scope"
+			],
+			[
+				"colo",
+				"Color Scheme Editor: Goto next matching scope"
+			],
+			[
+				"REMO",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"packageresource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pacreve",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pacrevi",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pacou",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo.txt"
+			],
+			[
+				"irc",
+				"IRC: Plugin Test Room"
+			],
+			[
+				"ftps",
+				"FTPSync: Check current file"
+			],
+			[
+				"auto",
+				"AutoFileName: Default Settings"
+			],
+			[
+				"asc",
+				"ASCII Decorator: Generate Font Test"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"th",
+				"Themr: List themes"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"c",
+				"Set Syntax: CSS3"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"cs",
+				"Set Syntax: CSS3"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"wordpr",
+				"WordPress Developer: Open Function Reference"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"sync ",
+				"Package Syncing: Define Sync Folder"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML5"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"EN",
+				"Package Control: Enable Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"foldre",
+				"Project: Add Folder"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 542.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/xampp/htdocs/Tumblr Theme Dev",
+		"/D/xampp/htdocs/Tumblr Theme Dev/res"
+	],
+	"file_history":
+	[
+		"/C/Program Files (x86)/Koala/app/scripts/windowEvents.js",
+		"/C/Program Files (x86)/Koala/app/scripts/contextmenu.js",
+		"/C/Program Files (x86)/Koala/app/scripts/notifier.js",
+		"/D/xampp/htdocs/Tumblr Theme Dev/js/tray.js",
+		"/D/xampp/htdocs/Tumblr Theme Dev/js/main.js",
+		"/D/xampp/htdocs/Tumblr Theme Dev/js/mainframe.js",
+		"/D/xampp/htdocs/Tumblr Theme Dev/less/style.less",
+		"/D/xampp/htdocs/Tumblr Theme Dev/res/tags.txt",
+		"/D/xampp/htdocs/Tumblr Theme Dev/package.json",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/pdf/index.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/js/app.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/css/style.less",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/css/style.css",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/node_modules/sweetalert/dist/sweetalert.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/node_modules/featherlight/featherlight.min.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/js/oldbrowser.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/mobile.html",
+		"/C/Users/P3t3r_000/Desktop/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaco Criativo/Pequenos/site/index - Cópia (2).html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/css/style.less",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/js/app.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/pdf/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/css/fonts.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/css/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/EspacoCriativo/todo",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/soon.html",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/fz3temp-1/post-types.php",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/fz3temp-1/custom-post-type-ui.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/menu.html",
+		"/D/xampp/htdocs/Dropbox/LP/index.html",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/QZ6N9YV6/etag[1].dat",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/3MZJG99K/swiftkey[1].lm3",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/G37S44LK/punctuation[1].json",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/CHGZZP28/punctuation-SDK1.2[1].json",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/B678XUCI/ime[1].json",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/F1H53DE3/charactermap[1].json",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/4I5X48NI/charactermap[1].json",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/4I5X48NI/ll_pt_PT_bg_c[1].lm3",
+		"/C/Users/P3t3r_000/AppData/Local/Microsoft/Windows/INetCache/IE/3MZJG99K/punctuation-SDK1.2[1].json",
+		"/C/Users/P3t3r_000/Desktop/2811fb90a1302h",
+		"/D/Photos/2015/WhatsApp/WhatsApp Images/Sleep.pla",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/includes/about.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/js/jquery.malihu.PageScroll2id.min.js",
+		"/C/Users/P3t3r_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/P3t3r_000/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/js/jquery.nicescroll.min.js",
+		"/C/Users/P3t3r_000/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/node_modules/jInvertScroll/jquery.jInvertScroll.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/node_modules/jInvertScroll/jquery.jInvertScroll.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/js/smoothScroll.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Pequenos/site/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/infantario/index.html",
+		"/D/xampp/htdocs/Dropbox/LP/LP.sublime-workspace",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Espaco Criativo.sublime-workspace",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/infantario/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/infantario/css/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/infantario/js/app.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/in",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/css/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/index.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/css/mac.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/js/faqs.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/js/app.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/translate.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/cssBACKUP",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/css/jquery.fancybox.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/toshiba.sublime-project",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/contactform/inc/contactform.config.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/map.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/Rechargeable.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/LithiumCoin.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/HearingAid.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/SuperHeavyDuty.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/HeavyDuty.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/AlkalineA23.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/tables/BlueLine.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/images/tables/AlphaPower.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/js/products.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/js/productsSCHEMA.json",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/server/QuickPHP.ini",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/server.bat",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site-angular/contactform/css/contactform.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/EasyPHP-DevServer/binaries/conf_files/httpd.conf",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/notes",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/index.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/prods.json",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/7zO3980.tmp/index.php",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/7zOBF87.tmp/contactform.config.php",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/7zO28D4.tmp/contactform.js",
+		"/C/Users/P3T3R_~1/AppData/Local/Temp/7zED4C.tmp/contactform.js",
+		"/C/Users/P3t3r_000/AppData/Local/Temp/7zOFCDA.tmp/index.php",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/css/phone.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/css/jquery.fancybox.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/css/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/jquery.parallax.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/parallax.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/mouse-parallax.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/style.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/css/tablet.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/jquery.fancybox.js",
+		"/D/xampp/htdocs/Dropbox/Toshiba/css/fonts.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/jquery.bxslider.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/jquery.singlePageNav.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/css/fonts.css",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/simplePageNav.min.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/Site/plugins/jquery.nav.js",
+		"/C/Users/P3t3r_000/Desktop/Consignacao_colecta_IRS_Lista_entidades.xls",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/plugins/parallax.js",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/Toshiba/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/ipelo/index.html",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/ipelo/slick-1.5.9/README.markdown",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/ipelo/style.css",
+		"/C/Users/P3t3r_000/Desktop/mail",
+		"/C/Users/Pedro Realinho/Desktop/Espaço Criativo/ipelo/Slides-SlidesJS-3/README.textile",
+		"/D/xampp/htdocs/Dropbox/3T/template/js/main.js",
+		"/D/xampp/htdocs/Dropbox/3T/template/index.html",
+		"/D/xampp/htdocs/Dropbox/3T/template/plugins/jsqrcode-combined.min.js",
+		"/D/xampp/htdocs/Dropbox/3T/template/plugins/html5_qrcode.min.js",
+		"/D/xampp/htdocs/Dropbox/3T/template/plugins/qr.min.js",
+		"/D/xampp/htdocs/Dropbox/Omnilisten/index.html",
+		"/D/xampp/htdocs/Dropbox/Omnilisten/omniConfigs/fileList.json",
+		"/D/xampp/htdocs/Dropbox/Omnilisten/style.css"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 103.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tray",
+			"tra",
+			",",
+			"sun",
+			"galleryPhotos",
+			"logos",
+			"featherlight-con",
+			"h3",
+			"im",
+			"img",
+			"abou",
+			"FUND",
+			"home",
+			"ff0",
+			"rave",
+			"skybg",
+			"#home",
+			"position: fixed",
+			"gall",
+			"g",
+			"ga",
+			"80vw",
+			"logo",
+			"home",
+			"logo",
+			"logotype",
+			"logo",
+			"overflow",
+			"left",
+			"proje",
+			"height",
+			"click()",
+			"toggl",
+			"25",
+			"close",
+			"CLOSE",
+			"blur",
+			"important",
+			"import",
+			"impor",
+			"import",
+			"table",
+			"    ]\n  },",
+			"\"banner\": \"\",",
+			"Rechargable",
+			"Zink",
+			"err",
+			"@gm",
+			"@",
+			"serverRoot",
+			"cria",
+			"ped",
+			"pedr",
+			"pedro",
+			"pedrp",
+			"answ",
+			"question",
+			" question",
+			"\"answ\"",
+			"\"question\"",
+			"hover",
+			"style=\"(.+);\"",
+			"style=\"(.)\"",
+			"style=\"[(a-z)(A-Z)(0-9)]\"",
+			"style=\"[a-zA-Z0-9]\"",
+			"style=\".\"",
+			"TargetLangCode",
+			"SourceLangCode",
+			"border",
+			"close",
+			"url",
+			"gif",
+			"png",
+			"sprite",
+			"overla",
+			"radiu",
+			"<button>READ MORE</button>",
+			"button",
+			"flex",
+			")+'%';",
+			".products",
+			"images",
+			"ur",
+			"full",
+			"section",
+			"curre",
+			"newLoc",
+			"scrollTo",
+			"target",
+			"anima",
+			"h1",
+			"iframe",
+			"h3",
+			"addC",
+			"add",
+			"addC",
+			"min",
+			"Presscore_Inc_Portfolio_Post_Type",
+			"/*******************************************************************/",
+			"upload_",
+			"max_input",
+			"<?php  ?>",
+			"http://wokeupinvogue.com/?p=162",
+			".post.complete",
+			"\">\n",
+			"foo",
+			"Output",
+			"output",
+			"get_template_directory_uri",
+			"get_bloginfo",
+			"bloginfo",
+			"bloginf",
+			"h1",
+			";",
+			"{",
+			"5",
+			"map.",
+			"Background",
+			"h2",
+			"auto",
+			"selected_match_fg",
+			"auto",
+			"1",
+			"center",
+			"overlay",
+			"overla",
+			"overl",
+			"33, 33, 33"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"fff000",
+			"    ],\n    \"specs\" : {\n       \"table\" : \"tables/NAME.html\"\n    }\n  },",
+			"\"banner\": \"images/banners/.jpg\",",
+			"Rechargeable",
+			"Zinc",
+			"\"answ\"",
+			"\"question\"",
+			"question",
+			"answ",
+			" question",
+			" ",
+			"en",
+			"<button href=\"#popup\">READ MORE</button>",
+			"-webkit-flex",
+			".products .prodcat",
+			"<?php the_permalink();?>",
+			"<?php  ?>",
+			"<?php  ?>\n",
+			";\n",
+			"{\n",
+			"parcels",
+			"minute",
+			"($(window).scrollTop() + wpadminbar)",
+			"header nav",
+			"</section>",
+			"section class=\"post",
+			"",
+			"2.0",
+			"1.5",
+			"2.0",
+			"</span>",
+			"<span>",
+			"section",
+			"111",
+			"border: 0px",
+			"font-weight: 100",
+			"font-weight: 300",
+			"border: 1px"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1905,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1313,
+								1313
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								368.0
+							],
+							"remote_loading": false,
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 368.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "less/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1364,
+								1364
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_indent": true,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								950.0
+							],
+							"remote_loading": false,
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 950.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/mainframe.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								274,
+								274
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"output.textarea":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "Tumblr Theme Dev.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main",
+				"js\\main.js"
+			],
+			[
+				"less",
+				"less\\style.less"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"sty",
+				"less\\style.less"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"pagesc",
+				"Pequenos\\site\\js\\jquery.malihu.PageScroll2id.min.js"
+			],
+			[
+				"nices",
+				"Pequenos\\site\\js\\jquery.nicescroll.min.js"
+			],
+			[
+				"reca",
+				"Toshiba\\Site-angular\\tables\\Rechargeable.html"
+			],
+			[
+				"core/init",
+				"Google Drive\\cmsTest\\www\\core\\init.php"
+			],
+			[
+				"home",
+				"FunnyFarmer\\resources\\maps\\homeField.json"
+			],
+			[
+				"funny",
+				"FunnyFarmer\\index.html"
+			],
+			[
+				"",
+				"3T\\js\\main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Pedro Realinho\\Desktop\\Espaco Criativo\\jf-pontinhafamoes\\jf-pontinhafamoes.sublime-project"
+			],
+			[
+				"an",
+				"C:\\Users\\Pedro Realinho\\Desktop\\Espaco Criativo\\angelocosta\\Angelo Costa.sublime-project"
+			],
+			[
+				"na",
+				"C:\\Users\\Pedro Realinho\\Desktop\\Espaco Criativo\\nautitejo\\nautitejo.sublime-project"
+			],
+			[
+				"lp",
+				"D:\\xampp\\htdocs\\Dropbox\\LP\\LP.sublime-project"
+			],
+			[
+				"to",
+				"C:\\Users\\Pedro Realinho\\Desktop\\Espaço Criativo\\Toshiba\\Toshiba.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
