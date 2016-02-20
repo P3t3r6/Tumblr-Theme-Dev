@@ -14,3 +14,19 @@ function externalLink(e, el){
 	e.preventDefault();
 	gui.Shell.openExternal($(el).attr('href'));
 }
+
+var ui = {
+	view(panel){
+		ui.hide($('main > section'));
+		ui.hide($('main > iframe'));
+		ui.show($('#'+panel));
+	},
+	hide($el){
+		$el.addClass('hidden');
+		$el.removeClass('visible');
+	},
+	show($el){
+		$el.addClass('visible');
+		$el.removeClass('hidden');
+	}
+}

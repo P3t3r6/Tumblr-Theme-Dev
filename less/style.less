@@ -13,6 +13,8 @@
 
 // ------ Reset ------
 *{
+	-webkit-user-drag: none;
+	user-drag: none;
 	user-select: none;
 	outline: none;
 }
@@ -139,6 +141,8 @@ body{
 		margin: 0; padding: @navHeight 0 0 0;
 		box-sizing: border-box;
 		> #dragdrop{
+			// border: 12px dashed @darkBlue;
+			// border-radius: 30px;
 			color: @darkBlue;
 			font-family: 'Roboto Slab';
 			font-size: 2.5rem;
@@ -150,6 +154,9 @@ body{
 			box-sizing: border-box;
 			transition-timing-function: cubic-bezier(.8,0,.2,1);
 			transition: height .3s, opacity .3s, color .2s ease-in-out;
+			&:hover{
+				color: fade(@white, 6%);
+			}
 			&.hidden{
 				height: 0%;
 				opacity: 0;

@@ -14,15 +14,21 @@ $(function(){
 		$dropInput.click();
 	}).on('drop', function(e){
 		droppedfile = e.originalEvent.dataTransfer.files;
-		$('#mainframe').attr('src', droppedfile[0].path);
-		$droparea.addClass('hidden');
-		$('#mainframe').addClass('visible');
+		mainframeLocation(droppedfile[0].path);
+		updateRecent(droppedfile[0].path);
+		ui.view('mainframe');
 	});
 
 	$dropInput.change(function(){
 		droppedfile = $dropInput[0].files;
-		$('#mainframe').attr('src', droppedfile[0].path);
-		$droparea.addClass('hidden');
-		$('#mainframe').addClass('visible');
+		mainframeLocation(droppedfile[0].path);
+		updateRecent(droppedfile[0].path);
+		ui.view('mainframe');
 	});
 });
+
+function updateRecent(fp){
+	fs.writeFile('config/recent', fp, function(err){
+		if(err) throw err;
+	});
+}

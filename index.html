@@ -8,7 +8,11 @@
 	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script>var gui = require('nw.gui'); var win = gui.Window.get();</script>
+	<script>
+		var gui = require('nw.gui');
+		var win = gui.Window.get();
+		var fs = require('fs');
+	</script>
 	<script src="js/mainframe.js"></script>
 	<script src="js/tray.js"></script>
 	<script src="js/dragdrop.js"></script>
@@ -16,7 +20,8 @@
 	<script>
 		// win.showDevTools();
 		$(function(){
-			setTimeout(function(){get_mainframe()},1000);
+			mainframeInit();
+			// setTimeout(function(){get_mainframe()},1000);
 
 			// win.on('devtools-opened', function(url){
 			// 	console.log(url);
@@ -64,17 +69,17 @@
 		</nav>
 	</header>
 	<main>
-		<section style="height: auto; width: 100%; text-align: center; color: #ddd; display: none;">
+		<section id="welcome" style="height: auto; width: 100%; text-align: center; color: #ddd; display: none;">
 			<br><img src="images/logo.png" style="height: 10vh;">
 			<p>
 				<h2 style="font-weight: 100">Welcome to the</h2><br>
 				<h1>Tumblr Theme Dev</h1>
-			</p>
+			</p><!--
 			<p>If you are, or plan to be a theme developer for Tumblr, <br>
-			you will definitely appreciate the existence of this app.</p>
-			<p><h5>Disclaimer:</h5> This is not a product by Tumblr. It could be tho ... ;)</p>
+			you will definitely appreciate the existence of this app.</p> -->
+			<!-- <p><h5>Disclaimer:</h5> This is not a product by Tumblr. It could be tho ... ;)</p> -->
 		</section>
-		<div id="dragdropFileInput" style="display: none;"><input type="file" style="visibility: hidden;"></div>
+		<section id="dragdropFileInput" style="display: none;"><input type="file" style="visibility: hidden;"></section>
 		<section id="dragdrop">
 			<div>
 				<span class="fa fa-file-code-o" style="float: left; font-size: 6rem; margin: 0 .3em;"></span>
@@ -101,7 +106,6 @@
 	<footer></footer>
 	<script>
 		var path = './';
-		var fs = require('fs');
 		fs.watch(path, function() {
 			if (location)
 			location.reload();
