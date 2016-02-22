@@ -4,6 +4,7 @@ function mainframeInit(){
 	if(loadRecent()){
 		ui.view('mainframe');
 		mainframeWatch();
+		mainframeReady(function(){parserInit()});
 	}
 }
 
@@ -48,20 +49,28 @@ function mainframeWatch(p){
 	});
 }
 
-function define_mainframe(){
-	mainframe = {
-		frame: $('#mainframe')[0],
-		window: $('#mainframe')[0].contentWindow,
-		document: $('#mainframe')[0].contentWindow.document,
-		content: {
-			isAvailable: false,
-			get: function(){}
-		},
-		body: $('body', mainframe.document)
-	}
-	$(mainframe.window).contextmenu(function(e){
-		contextmenu([{label: 'New'},{type: 'separator'},{label: 'Cut'},{label: 'Copy'},{label: 'Paste'},{type: 'separator'},{label: 'Properties'}], e);
+function mainframeReady(codetorun){
+	// var mfdom = $('#mainframe')[0].contentWindow;
+	var mf = $('#mainframe');
+	win.on('document-end', function(mf){
+		codetorun();
 	});
+}
+
+function define_mainframe(){
+	// mainframe = {
+	// 	frame: $('#mainframe')[0],
+	// 	window: $('#mainframe')[0].contentWindow,
+	// 	document: $('#mainframe')[0].contentWindow.document,
+	// 	content: {
+	// 		isAvailable: false,
+	// 		get: function(){}
+	// 	},
+	// 	body: $('body', mainframe.document)
+	// }
+	// $(mainframe.window).contextmenu(function(e){
+	// 	contextmenu([{label: 'New'},{type: 'separator'},{label: 'Cut'},{label: 'Copy'},{label: 'Paste'},{type: 'separator'},{label: 'Properties'}], e);
+	// });
 }
 
 function get_mainframe(){

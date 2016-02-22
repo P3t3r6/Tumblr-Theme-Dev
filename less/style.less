@@ -152,6 +152,7 @@ body{
 			opacity: 1;
 			cursor: pointer;
 			box-sizing: border-box;
+			z-index: 800;
 			transition-timing-function: cubic-bezier(.8,0,.2,1);
 			transition: height .3s, opacity .3s, color .2s ease-in-out;
 			&:hover{
@@ -180,6 +181,8 @@ body{
 			display: block;
 			opacity: 0;
 			box-sizing: border-box;
+			position: relative;
+			z-index: 900;
 			transition-timing-function: cubic-bezier(.8,0,.2,1);
 			transition: height .3s, opacity .3s, width .2s;
 			&.visible{

@@ -1,4 +1,5 @@
 var navHeight;
+
 $(function(){
 	navHeight = $('header nav').outerHeight();
 	headerHeight = $('header').outerHeight();
@@ -28,5 +29,26 @@ var ui = {
 	show($el){
 		$el.addClass('visible');
 		$el.removeClass('hidden');
+	}
+}
+
+function responsToggle(){
+	var $mf = $('#mainframe');
+	if($mf.hasClass('respons-1024')){
+		$mf.removeClass('respons-1024');
+		$mf.addClass('respons-800');
+	} else if($mf.hasClass('respons-800')){
+		$mf.removeClass('respons-800');
+		$mf.addClass('respons-600');
+	} else if($mf.hasClass('respons-600')){
+		$mf.removeClass('respons-600');
+		$mf.addClass('respons-400');
+	} else if($mf.hasClass('respons-400')){
+		$mf.removeClass('respons-400');
+		$mf.addClass('respons-200');
+	} else if($mf.hasClass('respons-200')){
+		$mf.removeClass('respons-200');
+	} else {
+		$mf.addClass('respons-1024');
 	}
 }

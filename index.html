@@ -14,6 +14,7 @@
 		var fs = require('fs');
 	</script>
 	<script src="js/mainframe.js"></script>
+	<script src="js/parser.js"></script>
 	<script src="js/tray.js"></script>
 	<script src="js/dragdrop.js"></script>
 	<script src="js/main.js"></script>
@@ -53,7 +54,7 @@
 			<div>
 				<ul class="menu">
 					<li><a onclick="$('#mainframe').toggleClass('visible'); $('#dragdrop').toggleClass('hidden');" href="#">Mainframe</a></li>
-					<li><a onclick="$('#mainframe').toggleClass('respons-400');" href="#">Responsive</a></li>
+					<li><a onclick="responsToggle();" href="#">Responsive</a></li>
 					<li><a onclick="win.showDevTools('mainframe')" href="#">DevTools</a></li>
 					<li><a href="">File</a></li>
 					<li><a href="">View</a></li>
