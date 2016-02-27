@@ -11,6 +11,7 @@ var rexp_alltags = /{(.*)}/g;
 var rexp_blocks = /{(.*)block:(.*)}/g;
 var rexp_tags = /{(?!(.*)block:)(.*)}/g;
 var parsed = '';
+var usedtags = [];
 
 function parserInit(){
 	var dom = null;
@@ -28,6 +29,7 @@ function parseHead(head){
 	while((match = rexp_alltags.exec(head)) != null){
 		head = parseReplace(head, match.index, match[0], 'Hello! I\'m a tag! :D');
 		console.log('From',match.index,'to',(match.index+match[0].length),match[0]);
+		usedtags.push(match[0]);
 	}
 	return head;
 }
@@ -39,4 +41,4 @@ function parseReplace(inp, i, l, s){
 function parseToMainframe(c){
 	$('#mainframe')[0].contentWindow.document.write(c);
 }
-// look for <script> blocks and ignore them
+// look for <script> and <style> blocks and ignore them

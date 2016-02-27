@@ -18,18 +18,35 @@ function externalLink(e, el){
 
 var ui = {
 	view(panel){
-		ui.hide($('main > section'));
-		ui.hide($('main > iframe'));
+		ui.hideAll();
 		ui.show($('#'+panel));
+		ui.current = panel;
+	},
+	switchViews(p1, p2){
+		if(p1 == ui.current) ui.view(p2);
+		else if(p2 == ui.current) ui.view(p1);
+		else ui.view(p1);
+	},
+	toggleView(panel){
+		if(!$('#'+panel).hasClass('visible') || $('#'+panel).hasClass('hidden')){
+			ui.show($('#'+panel));
+		} else {
+			ui.hide($('#'+panel));
+		}
 	},
 	hide($el){
 		$el.addClass('hidden');
 		$el.removeClass('visible');
 	},
+	hideAll(){
+		ui.hide($('main > section'));
+		ui.hide($('main > iframe'));
+	},
 	show($el){
 		$el.addClass('visible');
 		$el.removeClass('hidden');
-	}
+	},
+	current: 'dragdrop'
 }
 
 function responsToggle(){

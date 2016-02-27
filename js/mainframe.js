@@ -2,7 +2,7 @@ var mainframeCurrentFilepath;
 
 function mainframeInit(){
 	if(loadRecent()){
-		ui.view('mainframe');
+		// ui.view('mainframe');
 		mainframeWatch();
 		mainframeReady(function(){parserInit()});
 	}
