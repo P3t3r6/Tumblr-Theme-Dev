@@ -2,9 +2,9 @@ var mainframeCurrentFilepath;
 
 function mainframeInit(){
 	if(loadRecent()){
-		// ui.view('mainframe');
+		ui.view('mainframe');
 		mainframeWatch();
-		mainframeReady(function(){parserInit()});
+		// mainframeReady(function(){parserInit()});
 	}
 }
 
@@ -36,16 +36,14 @@ function mainframeLocation(f){
 }
 
 function mainframeWatch(p){
-	var mfcw = $('#mainframe')[0].contentWindow;
 	p = (p == undefined ? mainframeCurrentFilepath : p);
-	p = p + '\\..';
-	fs.watch(p, function(){
-		if(mfcw.location)
-			try {
-				mfcw.location.reload();
-			} catch(e) {
-				// console.log(e);
-			}
+	p = p.slice(0, p.lastIndexOf('\\'));
+	var gaze = new Gaze(p + '\\**');
+	console.log(gaze)
+	gaze.on('all', function(e, f){
+		if($('#mainframe')[0].contentWindow.location){
+			$('#mainframe')[0].contentWindow.location.reload();
+		}
 	});
 }
 
